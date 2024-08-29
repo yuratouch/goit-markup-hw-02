@@ -11,6 +11,10 @@
   --font-weight-medium: 500;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--text);
   font-family: "Roboto", sans-serif;
@@ -57,6 +61,11 @@ h3 {
 a {
   color: var(--white);
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 header {
@@ -125,6 +134,7 @@ address ul a:hover,
 }
 
 .logo {
+  color: var(--primary);
   font-family: "Raleway", "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -133,18 +143,22 @@ address ul a:hover,
   text-transform: uppercase;
 }
 
-.logo span {
-  color: var(--primary);
+.logo .dark {
+  color: var(--dark);
+}
+
+.logo .light {
+  color: var(--white);
 }
 
 .hero {
-  background-color: var(--dark);
-  text-align: center;
-  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--dark);
+  text-align: center;
+  min-height: 600px;
 }
 
 .hero button {
