@@ -125,7 +125,7 @@ address ul a:hover,
 }
 
 .logo .light {
-  color: var(--white);
+  color: var(--light);
 }
 
 .hero {
@@ -166,19 +166,19 @@ address ul a:hover,
 }
 
 .section-header {
-    color: var(--dark);
-    font-size: 36px;
-    line-height: 1.11;
-    margin-bottom: 72px;
-    text-align: center;
+  color: var(--dark);
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .block-header {
-    color: var(--dark);
-    font-size: 20px;
-    font-weight: var(--font-weight-medium);
-    line-height: 1.2;
-    margin-bottom: 8px;
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .principles {
