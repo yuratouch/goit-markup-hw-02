@@ -80,7 +80,7 @@ li {
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 address ul li {
@@ -108,9 +108,13 @@ address ul li {
   border-bottom: 4px solid var(--pressed);
 }
 
+.nav-link {
+  color: var(--text);
+}
+
 .nav-link:active,
 .nav-link:focus {
-    color: var(--pressed);
+  color: var(--pressed);
 }
 
 address ul a:hover,
@@ -250,20 +254,20 @@ footer p {
 }
 
 .autocheck-properties-cover {
-    position: relative;
-    width: auto;
-    height: auto;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    display: block;
-    align-items: center;
-    padding: 0;
-    flex-direction: column;
-    gap: 0;
-    border-radius: 0;
-    box-shadow: none;
-    order: unset;
-    flex-grow: unset;
-    border-bottom: 0;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 7;
+  top: 7;
+  box-sizing: border-box;
+  display: inline-block;
+  align-items: center;
+  padding: 45px;
+  flex-direction: row-reverse;
+  gap: 3;
+  border-radius: 7px;
+  box-shadow: var(--dark);
+  order: 3;
+  flex-grow: inherit;
+  border-bottom: 1px solid var(--dark);
 }
