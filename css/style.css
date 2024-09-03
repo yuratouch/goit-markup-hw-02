@@ -171,6 +171,7 @@ address ul a:hover,
   line-height: 1.11;
   margin-bottom: 72px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .block-header {
@@ -179,6 +180,7 @@ address ul a:hover,
   font-weight: var(--font-weight-medium);
   line-height: 1.2;
   margin-bottom: 8px;
+  letter-spacing: 0.02em;
 }
 
 .principles {
