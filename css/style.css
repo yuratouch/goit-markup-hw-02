@@ -32,7 +32,6 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -40,21 +39,13 @@ a {
   text-decoration: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
 
 header {
-  display: flex;
   background-color: var(--accent);
   justify-content: space-between;
-  padding: 24px var(--global-padding);
 }
 
-header ul {
-  display: flex;
-}
+
 
 header a {
   color: var(--dark);
@@ -63,16 +54,11 @@ header a {
 footer {
   background-color: var(--dark);
   color: var(--light);
-  padding: 100px var(--global-padding);
 }
 
-section {
-  padding: 120px var(--global-padding);
-}
 
 ul {
   margin: 0;
-  padding: 0;
 }
 
 li {
@@ -87,9 +73,7 @@ address ul li {
   margin-left: 40px;
 }
 
-.main-navigation {
-  display: flex;
-}
+
 
 .main-navigation ul {
   margin-left: 76px;
@@ -103,10 +87,6 @@ address ul li {
   font-weight: var(--font-weight-medium);
 }
 
-.main-navigation ul a:active,
-.main-navigation ul a:focus {
-  border-bottom: 4px solid var(--pressed);
-}
 
 .nav-link {
     color: var(--dark);
@@ -147,10 +127,6 @@ address ul a:hover,
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: var(--dark);
   text-align: center;
   min-height: 600px;
@@ -168,10 +144,8 @@ address ul a:hover,
 .primary-button {
   background-color: var(--primary);
   border: none;
-  border-radius: 4px;
   color: var(--white);
   font-weight: var(--font-weight-medium);
-  padding: var(--font-size-default) 32px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
@@ -202,15 +176,7 @@ address ul a:hover,
   letter-spacing: 0.02em;
 }
 
-.principles {
-  display: flex;
-}
 
-.principles ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
 
 .principles li {
   max-width: 264px;
@@ -220,16 +186,9 @@ address ul a:hover,
   background-color: var(--light);
 }
 
-.team ul {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
 
 .team li {
   background-color: var(--white);
-  border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -237,17 +196,11 @@ address ul a:hover,
   margin-bottom: 32px;
 }
 
-.portfolio ul {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-}
+
 
 .portfolio div {
   border: 1px solid var(--accent);
   border-top: none;
-  padding: 32px var(--font-size-default);
 }
 
 .portfolio li:first-child div {
